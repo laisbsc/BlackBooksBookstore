@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+  <theme name="Computer Science">
+    <book>
+      <author>Charles Petzold</author>
+      <title>Code: The Hidden Language of Computer Hardware and Software</title>
+      <genre>Computer</genre>
+      <price>15.10</price>
+    </book>
+    <book>
+      <author>Wladston Ferreira Filho</author>
+      <title>Computer Science Distilled: Learn the Art of Solving Computational Problems</title>
+      <genre>Introduction to Programming</genre>
+      <price>20.50</price>
+    </book>
+    <book>
+      <author>Tim O'Brien</author>
+      <title>Microsoft .NET: The Programming Bible</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+    </book>
+    <book>
+      <title>Head First Java</title>
+      <price>49.95</price>
+      <author>Bert Bates and Kathy Sierra</author>
+      <genre>Programming</genre>
+    </book>
+    <book>
+      <title/>
+      <price>12</price>
+      <author/>
+      <genre/>
+    </book>
+  </theme>
+  <theme name="Psychological Humour">
+    <book>
+      <author>Jon Ronson</author>
+      <title>So You've Been Publicly Shamed</title>
+      <genre>Journalistic Writing</genre>
+      <price>8.99</price>
+    </book>
+    <book>
+      <author>Mark Manson</author>
+      <title>The Subtle Art of Not Giving a F*ck</title>
+      <genre>Psychology</genre>
+      <price>10.84</price>
+    </book>
+    <book>
+      <author>Jen Sincero</author>
+      <title>How to Stop Doubting Your Greatness and Start Living an Awesome Life</title>
+      <genre>Self-help</genre>
+      <price>6.65</price>
+    </book>
+  </theme>
+  <theme name="Behavioral Sciences">
+    <book>
+      <author>Yuval Noah Harari</author>
+      <title>Sapiens: A Brief History of Humankind</title>
+      <genre>Evolution</genre>
+      <price>24.87</price>
+    </book>
+    <book>
+      <author>Brian Christian and Tom Griffiths</author>
+      <title>Algorithms to Live By: The Computer Science of Human Decisions</title>
+      <genre>Cognitive Psychology</genre>
+      <price>16.99</price>
+    </book>
+    <book>
+      <author>Amir Levine and Rachel S.F. Heller</author>
+      <title>Attached: The New Science of Adult Attachment and How It Can Help You Find—and Keep—Love:&#xD;&#xD;
+          The New Science of Adult Attachment and How It Can Help You Find--and Keep-- Love</title>
+      <genre>Self-Management</genre>
+      <price>24.62</price>
+    </book>
+    <book>
+      <author>Cal Newport</author>
+      <title>Deep Work: Rules for Focused Success in a Distracted World</title>
+      <genre>Productivity</genre>
+      <price>17.42</price>
+    </book>
+    <book>
+      <author> Charles Duhigg</author>
+      <title>Smarter Faster Better: The Secrets of Being Productive in Life and Business </title>
+      <genre>Productivity</genre>
+      <price>18.80</price>
+    </book>
+  </theme>
+  <theme name="Art">
+    <book>
+      <author>Felicia Day</author>
+      <title>Embrace Your Weird: Face Your Fears and Unleash Creativity</title>
+      <genre>Creative-guide</genre>
+      <price>49.95</price>
+    </book>
+    <book>
+      <author>Banksy</author>
+      <title>Wall and Piece</title>
+      <genre>Graffiti and Street art</genre>
+      <price>25.36</price>
+    </book>
+    <book>
+      <author>Sarah Andersen</author>
+      <title>Herding Cats</title>
+      <genre>Comics</genre>
+      <price>9.91</price>
+    </book>
+    <book>
+      <author>Andy Warhol</author>
+      <title>Photography</title>
+      <genre>Photography</genre>
+      <price>19.99</price>
+    </book>
+    <book>
+      <author> Kassia St. Clair</author>
+      <title>The Secret Lives of Color</title>
+      <genre>Artistic Design</genre>
+      <price>13.99</price>
+    </book>
+  </theme>
+</catalog>

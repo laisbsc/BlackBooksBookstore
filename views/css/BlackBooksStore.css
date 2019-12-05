@@ -3,8 +3,9 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    background-color: #616161;
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_1280.jpg);
+    margin-bottom: 60px; /* Margin bottom by footer height */
 }
 .footer {
   position: absolute;
@@ -20,13 +21,21 @@ table, th, td {
      border: 1px solid black;
      text-align: center;
 }
+#delete {
+    border-radius: 25px;
+    background-color: red;
+}
  table {
-     border-collapse: collapse;
-     width:100%;
+    /* background-color: rgba(255,255,255,0.6); */
+    border-collapse: collapse;
+    width:100%;
+}
+.container{
+       background-color: rgba(255,255,255,0.6);
 }
  td, th {
-     border: 1px solid #ced4da;
-     padding: 0.5rem;
+     border: 1px solid #323233;
+     padding: 0.8rem;
      text-align: left;
 }
  th {

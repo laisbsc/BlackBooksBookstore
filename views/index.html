@@ -6,16 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>IWA Demo App</title>
+	<title>Blackbooks Bookstore</title>
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/PaddysCafeStyles.css" rel="stylesheet">
+	<link href="css/BlackBooksStore.css" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-		<div class="container">	<a class="navbar-brand" href="#">Paddy's Cafe</a>
+		<div class="container">	<a class="navbar-brand" href="#">BlackBooks Bookstore</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -32,35 +32,41 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-left">
-				<h1 class="mt-5">Welcome to Paddy's Cafe</h1>
-				<p class="lead">Select your entrees from the menu below.</p>
+				<h1 class="mt-5">Welcome to BlackBooks Bookstore</h1>
+				<p class="lead">Have a look at our book selection below: </p>
 			</div>
 			<div id="results" class="col-lg-8 text-center order-3"></div>
 			<div class="col-lg-4 text-center order-2">
 				<form enctype="application/json" action="/post/json" method="post">
 					<div class="form-group">
-						<select class="form-control" name="sec_n">
-							<option value="0">Side Dishes</option>
-							<option value="1">Breakfast</option>
-							<option value="2">Lunch</option>
-							<option value="3">Dinner</option>
+						<select class="form-control" name="theme_n">
+							<option value="0">Computer Science</option>
+                        <option value="1">Psychological Humour</option>
+                        <option value="2">Behavioral Sciences</option>
+                        <option value="3">Art</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<input class="form-control" type="text" name="item" placeholder="Item">
+						<input class="form-control" type="text" name="title" placeholder="Title">
 					</div>
 					<div class="form-group">
 						<input class="form-control" type="text" name="price" placeholder="Price">
 					</div>
-					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    <div class="form-group">
+                    <input class="form-control" type="text" name="author" placeholder="Author">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="genre" placeholder="Genre">
+                </div>
+					<button type="submit" class="btn btn-primary btn-block">Submit</button> <br>
 				</form>
                     <button id="delete" class="btn btn-block btn-danger">Delete</button>
-                    <p class="text-muted">To delete an entree, click the required row first</p>
+                    <p class="text-muted">To delete a book, select the equivalent box first.</p>
 			</div>
 		</div>
 	</div>
 	<footer class="footer">
-		<div class="container">	<span class="text-muted">&copy; 2019</span>
+		<div class="container">	<span class="text-muted">Code forked from <a href="https://github.com/mikhail-cct/CA1-In-class-Demo">here</a> || Designed by Lais Carvalho&copy; 2019</span>
 		</div>
 	</footer>
 	<!-- Bootstrap core JavaScript -->
