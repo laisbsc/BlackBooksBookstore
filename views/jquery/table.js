@@ -1,3 +1,4 @@
+//code forked and adapted from here: https://github.com/mikhail-cct/CA1-In-class-Demo
 function draw_table()
 {
 	$("#results").empty();
