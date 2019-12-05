@@ -1,5 +1,4 @@
-# Interactive Web Application (BSc in IT - Group B) 2019 – CCT<br/>[![CCT](https://www.cct.ie/wp-content/themes/hdcct/img/atoms/logo.jpg)](http://cct.ie)
-
+# Interactive Web Application (BSc in IT - Group B) 2019 – CCT<br/>[![CCT](https://www.cct.ie/wp-content/themes/hdcct/img/atoms/logo.jpg)]
 Assignment I - Interactive WebPage for BlackBooks Bookstore
 
 This webpage uses an .xml file to structure the data transformed to HTMLO for client-side consumption.
