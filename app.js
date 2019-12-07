@@ -85,8 +85,10 @@ router.post('/post/delete', function(req, res) {
     // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
     xmlFileToJs('BlackBooksStore.xml', function(err, result) {
       if (err) throw (err);
+      console.log(obj.theme+' '+obj.book_n)
+      console.log(JSON.stringify(result))
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.catalog.theme[obj.theme].book[obj.book];
+      delete result.catalog.theme[obj.theme].book[obj.book_n];
       //This is where we convert from JSON and write back our XML file
       jsToXmlFile('BlackBooksStore.xml', result, function(err) {
         if (err) console.log(err);

@@ -25,12 +25,6 @@
       <author>Bert Bates and Kathy Sierra</author>
       <genre>Programming</genre>
     </book>
-    <book>
-      <title/>
-      <price>12</price>
-      <author/>
-      <genre/>
-    </book>
   </theme>
   <theme name="Psychological Humour">
     <book>
@@ -67,8 +61,7 @@
     </book>
     <book>
       <author>Amir Levine and Rachel S.F. Heller</author>
-      <title>Attached: The New Science of Adult Attachment and How It Can Help You Find—and Keep—Love:&#xD;&#xD;
-          The New Science of Adult Attachment and How It Can Help You Find--and Keep-- Love</title>
+      <title>Attached: The New Science of Adult Attachment and How It Can Help You Find—and Keep—Love: The New Science of Adult Attachment and How It Can Help You Find--and Keep-- Love</title>
       <genre>Self-Management</genre>
       <price>24.62</price>
     </book>

@@ -20,17 +20,19 @@ function draw_table()
 
 function select_row()
 {
-	$("#menuTable tbody tr[id]").click(function ()
+	$("#listTable tbody tr[id]").click(function ()
 	{
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
-		var theme = $(this).prevAll("tr").children("td[colspan='3']").length - 1;
-		var book = $(this).attr("id") - 1;
+        var theme = $(this).prevAll("tr").children("td[colspan='5']").length - 1;
+        console.log(theme)
+        var book = $(this).attr("id") - 1;
+        console.log(book)
 		delete_row(theme, book);
 	})
 };
 
-function delete_row(thm, book)
+function delete_row(thm, bk)
 {
 	$("#delete").click(function ()
 	{
@@ -41,7 +43,7 @@ function delete_row(thm, book)
 			data:
 			{
 				theme: thm,
-				book: book
+				book_n: bk
 			},
 			cache: false,
 			success: setTimeout(draw_table, 1000)

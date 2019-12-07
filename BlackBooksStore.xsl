@@ -17,12 +17,12 @@
                     <tbody>
                         <xsl:for-each select="/catalog/theme">
                             <tr>
-                                <td colspan="3">
+                                <td colspan="5">
                                     <xsl:value-of select="@name" />
                                 </td>
                             </tr>
                             <xsl:for-each select="book">
-                                <tr>
+                                <tr id="{position()}">
                                     <xsl:attribute name="kindle">
                                         <xsl:value-of select="boolean(./@kindle)" />
                                     </xsl:attribute>
