@@ -1,3 +1,4 @@
+<!-- code forked and adapted from here: https://github.com/mikhail-cct/CA1-In-class-Demo -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +11,17 @@
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/BlackBooksStore.css" rel="stylesheet">
+     <script src="js/BlackBooksStore.js"></script>
+    <script>
+    //only necessary if using not-xml
+        window.addEventListener("load", function() { 
+            document.forms[1].txtBillAmt.value = calculateBill('listTable');
+
+            document.querySelector("#calcBill").addEventListener("click", function() {
+                document.forms[1].txtBillAmt.value = calculateBill('listTable');
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -37,6 +49,7 @@
 			</div>
 			<div id="results" class="col-lg-8 text-center order-3"></div>
 			<div class="col-lg-4 text-center order-2">
+
 				<form enctype="application/json" action="/post/json" method="post">
 					<div class="form-group">
 						<select class="form-control" name="theme_n">
@@ -60,9 +73,26 @@
                 </div>
 					<button type="submit" class="btn btn-primary btn-block">Submit</button> <br>
 				</form>
+
                     <button id="delete" class="btn btn-block btn-danger">Delete</button>
                     <p class="text-muted">To delete a book, select the equivalent box first.</p>
-			</div>
+
+                <form class="" id="calc">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&euro;</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <input type="checkbox" id="showVeg" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input class="btn btn-block btn-secondary" type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill">
+                    </div>
+                </form>
+
+            </div>
 		</div>
 	</div>
 	<footer class="footer">
